@@ -130,7 +130,9 @@
     height: 500px;
     border-radius: 5px;
     box-shadow: 0 0 16px rgba(0,0,0,0.2);
-    margin-bottom: 30px; 
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px; 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -257,9 +259,9 @@ footer {
 
 /* RESPONSIVE-----------------------*/
 
-        /* RESP infini<>1000px */
+        /* RESP infini<>1030px */
 
-@media (max-width:1000px) {
+@media (max-width:1030px) {
     .contact-links {
         font-size: 1.2rem;
     }
@@ -269,6 +271,108 @@ footer {
     }
 }
 
+        /* RESP 1030<>800px */
 
+@media (max-width:800px) {
+    #welcome-section {
+        display: flex;
+        flex-direction: column; 
+    }
+    
+    #welcome-section img {
+        height: 40vh;
+        margin-top: 10vh;
+    }
+}
 
+        /* RESP 760<>460px */
+
+@media (max-width:770px){
+
+/*NAVBAR RSP */
+    .profil-title {
+        font-size: 1rem;
+        margin-left: 8px;
+        letter-spacing: 1px;
+    }
+    .nav-links a {
+        padding: 10px;
+        font-size: 1rem;
+    }
+/*WELCOME SECTION RSP */
+    #welcome-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+    }
+
+    #welcome-section img {
+        height: 40vh;
+        margin-top: 10vh;
+    }
+
+    .welcome-text {
+        height: 20vh;
+        justify-content:center;       
+    }
+    
+    .welcome-text h1 {
+        font-size: 2rem;
+    }
+    
+    .welcome-text p {
+        font-size: 1rem;
+    }
+
+/*PROJECTS SECTION RSP */
+    #projects h2 {
+        color:var(--bckgrd-color4);
+        margin-bottom:15px ;
+        font-size: 1.2rem;
+}
+
+/*CONTACT SECTION RSP */
+    #contact {
+        width: 100%;
+        height: 50vh;
+        min-height: 140px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0px;
+        text-align: center;
+        
+    }
+
+    #contact h2 {
+        font-size: 1.4rem;
+        margin-bottom: 0px;
+    }
+
+    #contact p {
+        font-size: 0.8rem;
+        margin-bottom:50px;
+    }
+
+    #contact ul {
+        display:flex;
+        flex-wrap: wrap;
+        width: 80%;
+        margin: 10px auto;
+        justify-content: space-evenly;
+    }
+
+    #contact ul li{
+        padding: 10px;
+    }
+
+    .contact-links {
+        font-size: 1rem;
+    }
+
+    .icon-contact {
+        margin-right: 5px;
+    }
+
+ }
 
