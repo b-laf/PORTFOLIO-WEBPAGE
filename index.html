@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Product Landing Page" />
-  <title>Product Landing Page</title>
+  <title>Portfolio Webpage Bastien Lafont</title>
   <link rel="stylesheet" href="styles.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com"> 
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
@@ -12,11 +12,97 @@
   <script src="https://kit.fontawesome.com/338e6989a7.js" crossorigin="anonymous"></script>
 </head>
 <header>
-
+  <nav id="navbar">
+    <div class="profil-title">
+      <h1>Bastien Lafont</h1>
+    </div>
+    <div class="nav-links">
+      <ul>
+        <li><a href="#welcome-section">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
 </header>
 
 <body>
+  <section id="welcome-section">
+    <img src="/img/profil-picture.png" alt="profil-picture">
+    <div class="welcome-text">
+      <h2>Hey I am Bastien</h2>
+      <p>a web developer in progress</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>These are some of my projects</h2>
+    <div class="project-container">
+
+      <div class="project-box">
+        <a href="#">
+          <img src="/img/product-landing.png" alt="product-landing">
+          <div class="project-box-text" >
+            <span class="icon-project"><i class="fa-solid fa-code"></i></span>
+            <h3>Product Landing</h3>
+            <span class="icon-project"><i class="fa-solid fa-code"></i></span>
+        </div>
+        </a>
+      </div>
+
+      <div class="project-box">
+        <a href="#">
+          <img src="/img/registration-form.png" alt="registration-form">
+          <div class="project-box-text" >
+            <span class="icon-project"><i class="fa-solid fa-code"></i></span>
+            <h3>Registration Form</h3>
+            <span class="icon-project"><i class="fa-solid fa-code"></i></span>
+          </div> 
+        </a>
+      </div>
+
+      <div class="project-box">
+        <a href="#">
+          <img src="/img/technical-doc.png" alt="technical-doc">
+          <div class="project-box-text" >
+            <span class="icon-project"><i class="fa-solid fa-code"></i></span>
+            <h3>Technical Documentation</h3>
+            <span class="icon-project"><i class="fa-solid fa-code"></i></span>
+          </div>
+        </a>
+      </div>
+
+      <div class="project-box">
+        <a href="#">
+          <img src="/img/tribute.png" alt="technical-doc">
+          <div class="project-box-text" >
+            <span class="icon-project"><i class="fa-solid fa-code"></i></span>
+            <h3>Tribute Page</h3>
+            <span class="icon-project"><i class="fa-solid fa-code"></i></span>
+          </div>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Let's work together...</h2>
+    <p>How do you take your coffee?</p>
+    <ul>
+      <li><span class="icon-contact"><i class="fa-brands fa-linkedin"></i></span>Linkedin</li>
+      <li><span class="icon-contact"><i class="fa-brands fa-github"></i></span>GitHub</li>
+      <li><span class="icon-contact"><i class="fa-brands fa-instagram"></i></span>Instagram</li>
+      <li><span class="icon-contact"><i class="fa-solid fa-mobile-screen-button"></i></span>Call me</li>
+      <li><span class="icon-contact"><i class="fa-solid fa-at"></i></span>Send a mail</li>
+    </ul>
+
+  </section>
 
 </body>
+
+<footer>
+  <p>A faire</p>
+</footer>
 
 </html>
